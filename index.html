@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <title>PHP基本実装例 Webアプリ編</title>
+</head>
+<body>
+    <header>
+        <h1>PHP基本実装例一覧</h1>
+    </header>
+    <main>
+        <section>
+            <h2>HTMLの基本パーツとPHP</h2>
+            <nav>
+                <ul>
+                    <li><a href="html/text/text_input.html">テキスト入力例</a></li>
+                    <li><a href="html/password/password_input.html">パスワード入力例</a></li>
+                    <li><a href="html/radio/radio_input.html">ラジオボタン例</a></li>
+                    <li><a href="html/checkbox/checkbox_input.html">チェックボックス例</a></li>
+                    <li><a href="html/select/select_input.html">セレクトボックス例</a></li>
+                    <li><a href="html/textarea/textarea_input.html">テキストエリア例</a></li>
+                    <li><a href="html/upload/file_input.html">アップローダー例</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <h2>DBとの連携</h2>
+            <p>データベース名:test_db</p>
+            <p>テーブル名:users</p>
+            <p>DBのテーブル構造：</p>
+            <pre>
+                CREATE TABLE users (
+                    id INT AUTO_INCREMENT PRIMARY KEY,
+                    name VARCHAR(100),
+                    email VARCHAR(100)
+                );
+            </pre>
+            <nav>
+                <ul>
+                    <li><a href="insert/insert.html">データの挿入フォームと処理</a></li>
+                    <li><a href="list/list.php">データの一覧表示</a></li>
+                    <li><a href="delete/delete.php">データの削除</a></li>
+                </ul>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 伊藤クラス PHP実装例教材</p>
+    </footer>
+</body>
+</html>

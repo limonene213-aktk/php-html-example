@@ -1,0 +1,88 @@
+/* ベーススタイル */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background-color: #0078d4;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* メインコンテンツ */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* セクション */
+section {
+    margin-bottom: 30px;
+}
+
+/* 見出し */
+h2 {
+    font-size: 1.5rem;
+    color: #0078d4;
+    border-bottom: 2px solid #0078d4;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* リンクスタイル */
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ナビゲーション */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+/* コードスタイル */
+pre, code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    padding: 10px;
+    display: block;
+    white-space: pre-wrap;
+    overflow-x: auto;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 20px;
+    padding: 10px 0;
+}

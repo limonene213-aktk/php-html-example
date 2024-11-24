@@ -597,3 +597,5 @@ $users = [
     </tr>
 </table>
 ```
+## About this repository
+©広島県障害者職業能力開発校 情報科 伊藤あきら

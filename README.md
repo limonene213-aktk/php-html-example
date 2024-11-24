@@ -9,6 +9,7 @@
 - <a href="https://www.apachefriends.org/jp/index.html">Xampp</a>などを使って**PHPが動作するウェブサーバー**と**SQLサーバー**を用意します。
 - 必要に応じて、MySQLデータベースのセットアップも行います。
 - すべてのコードは `UTF-8` を前提としています。
+- HTMLそのものに不安や不明点がある場合は、<a href="https://developer.mozilla.org/ja/docs/Web/HTML">mdn web docs</a>などを参照してみてください。
 - ダウンロードやGit cloneしてきたファイルをWeb root直下に置いてください。
 - ディレクトリ構造は以下の通りです：
 

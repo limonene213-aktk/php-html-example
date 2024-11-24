@@ -1,3 +1,5 @@
+<p align="center"><a target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" width="300" alt="php Logo"></a></p>
+
 # Webアプリを作るための基本的なPHPの使い方
 
 ## HTML入力フォームとPHP処理の例

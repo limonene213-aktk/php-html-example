@@ -9,6 +9,50 @@
 - <a href="https://www.apachefriends.org/jp/index.html">Xampp</a>などを使って**PHPが動作するウェブサーバー**と**SQLサーバー**を用意します。
 - 必要に応じて、MySQLデータベースのセットアップも行います。
 - すべてのコードは `UTF-8` を前提としています。
+- ダウンロードやGit cloneしてきたファイルをWeb root直下に置いてください。
+- ディレクトリ構造は以下の通りです：
+
+```
+.
+├── README.md
+├── SQL
+│   ├── delete
+│   │   └── delete.php
+│   ├── insert
+│   │   ├── insert.html
+│   │   └── insert.php
+│   └── list
+│       └── list.php
+├── html
+│   ├── checkbox
+│   │   ├── checkbox_input.html
+│   │   └── checkbox_input.php
+│   ├── password
+│   │   ├── password_input.html
+│   │   └── password_input.php
+│   ├── radio
+│   │   ├── radio_input.html
+│   │   └── radio_input.php
+│   ├── select
+│   │   ├── select_input.html
+│   │   └── select_input.php
+│   ├── text
+│   │   ├── text_input.html
+│   │   └── text_input.php
+│   ├── textarea
+│   │   ├── textarea_input.html
+│   │   └── textarea_input.php
+│   └── upload
+│       ├── file_input.html
+│       ├── file_input.php
+│       └── uploads
+├── index.html
+└── style.css
+```
+htmlはHTMLからPHPを呼び出して実行するものが、SQLディレクトリはMySQLの操作関係のものが入っています。
+
+フォルダ直下のindex.htmlにあるリンクから、各例に飛ぶことができます。
+
 
 ## 全体に共通するポイント
 

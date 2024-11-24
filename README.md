@@ -49,7 +49,7 @@
 ├── index.html
 └── style.css
 ```
-htmlはHTMLからPHPを呼び出して実行するものが、SQLディレクトリはMySQLの操作関係のものが入っています。
+htmlディレクトリにはHTMLからPHPを呼び出して実行するコードが、SQLディレクトリにはMySQLの操作関係のコードが入っています。
 
 フォルダ直下のindex.htmlにあるリンクから、各例に飛ぶことができます。
 
